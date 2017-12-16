@@ -1,4 +1,6 @@
+import HeaderSection from '../components/sections/header-section'
+
 export default () =>
   <div>
-    <p>Hello Next.js</p>
+    <HeaderSection />
   </div>
