@@ -1,3 +1,35 @@
 .hack {
   font-family: Hack, monospace;
 }
+
+p.brand-shadow {
+  /*text-shadow: -1px 1px #FEDA44;*/
+}
+
+img.brand-shadow {
+  box-shadow: -8px 8px #FEDA44, -16px 16px #FF9911;
+}
+
+.orange-shadow {
+  text-shadow: -1px 1px #FF9911;
+}
+
+.brand-yellow {
+  color: #FEDA44;
+}
+
+.brand-orange {
+  color: #FF9911;
+}
+
+.bg-brand-yellow {
+  background-color: #FEDA44;
+}
+
+.bg-brand-orange {
+  background-color: #FF9911;
+}
+
+.black-shadow {
+  box-shadow: -8px 8px black;
+}
