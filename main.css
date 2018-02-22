@@ -7,29 +7,87 @@ p.brand-shadow {
 }
 
 img.brand-shadow {
-  box-shadow: -8px 8px #FEDA44, -16px 16px #FF9911;
+  box-shadow: -8px 8px #feda44, -16px 16px #ff9911;
 }
 
 .orange-shadow {
-  text-shadow: -1px 1px #FF9911;
+  text-shadow: -1px 1px #ff9911;
 }
 
 .brand-yellow {
-  color: #FEDA44;
+  color: #feda44;
 }
 
 .brand-orange {
-  color: #FF9911;
+  color: #ff9911;
 }
 
 .bg-brand-yellow {
-  background-color: #FEDA44;
+  background-color: #feda44;
 }
 
 .bg-brand-orange {
-  background-color: #FF9911;
+  background-color: #ff9911;
 }
 
 .black-shadow {
   box-shadow: -8px 8px black;
+}
+
+.blinking {
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes 'blink' {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes 'blink' {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes 'blink' {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes 'blink' {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
 }
