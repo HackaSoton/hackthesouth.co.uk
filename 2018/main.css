@@ -1,0 +1,48 @@
+.hack {
+  font-family: Hack, monospace;
+}
+
+img.box-brand-shadow {
+  box-shadow: -8px 8px #feda44, -16px 16px #ff9911, -16px 16px 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+a.box-brand-shadow {
+  box-shadow: -4px 4px #ff9911;
+}
+
+.box-black-shadow {
+  box-shadow: -6px 6px rgba(0,0,0,0.9);
+  transition: box-shadow 100ms;
+}
+
+.box-black-shadow:hover {
+  box-shadow: -4px 4px rgba(0,0,0,0.9);
+}
+
+.txt-orange-shadow {
+  text-shadow: -1px 1px #ff9911;
+}
+
+.txt-black-shadow {
+  text-shadow: -1px 1px rgba(0,0,0,0.9);
+}
+
+.txt-orange-black-shadow {
+  text-shadow: -1px 1px #ff9911, -2px 2px rgba(0,0,0,0.9), -2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.brand-yellow {
+  color: #feda44;
+}
+
+.brand-orange {
+  color: #ff9911;
+}
+
+.bg-brand-yellow {
+  background-color: #feda44;
+}
+
+.bg-brand-orange {
+  background-color: #ff9911;
+}
