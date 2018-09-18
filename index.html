@@ -37,21 +37,8 @@
     <link rel="stylesheet" href="vendor/tachyons.css">
     <link rel="stylesheet" href="main.css">
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KP4ZQSW');</script>
-    <!-- End Google Tag Manager -->
-
   </head>
   <body class="bg-black-90 hack white">
-
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KP4ZQSW"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 
     <nav class="flex fixed w-100 z-1 bg-brand-yellow justify-between shadow-5">
       <a class="link black txt-orange-shadow dim no-underline flex items-center pa3 dib" href="index.html">
@@ -251,14 +238,14 @@
         <h2 class="f3">&gt; Sponsors 😎</h2>
         <ul class="flex-l list pl0 justify-center">
           <li class="db tc">
-            <a href="db.html">
+            <a href="db.html" ga-event-action="Click" ga-event-category="index.html" ga-event-label="Sponsor">
               <div class="bg-white br3 pa3 ml-auto mr-auto dib" style="height: 100px;">
                 <img class="w-auto mt3 ml3 mr3" style="max-height: 38px;" src="images/db.jpg">
               </div>
             </a>
           </li>
           <!--<li class="ml4-l mt4 mt0-l db tc">
-            <a href="amex.html">
+            <a href="amex.html" ga-event-action="Click" ga-event-category="index.html" ga-event-label="Sponsor">
               <div class="bg-white br3 pa3 ml-auto mr-auto dib" style="height: 100px;">
                 <img class="w-auto mt3 ml3 mr3" style="max-height: 38px;" src="images/amex.jpg">
               </div>
@@ -306,11 +293,6 @@
       </div>
     </footer>
 
-    <script type="text/javascript" src="vendor/smooth-scroll.polyfills.min.js"></script>
-    <script type="text/javascript" src="vendor/smooth-scroll.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124645518-3"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -318,6 +300,10 @@
       gtag('js', new Date());
       gtag('config', 'UA-124645518-3');
     </script>
+
+    <script type="text/javascript" src="vendor/smooth-scroll.polyfills.min.js"></script>
+    <script type="text/javascript" src="vendor/smooth-scroll.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 
   </body>
 
