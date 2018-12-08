@@ -15,14 +15,14 @@ document.querySelectorAll('[ga-event-action]').forEach(function(el) {
     var eventLabel = el.getAttribute('ga-event-label');
     var eventValue = el.getAttribute('ga-event-value');
 
-    if (!eventValue && el.nodeName === 'A') {
-      eventValue = el.getAttribute('href');
+    if (el.nodeName === 'A') {
+      eventLabel = el.getAttribute('href');
     }
 
     gtag('event', eventAction, {
       event_category: eventCategory,
       event_label: eventLabel,
-      value: eventValue
+      value: eventValue,
     });
   });
 });
