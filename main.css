@@ -7,6 +7,11 @@ img.box-brand-shadow {
     -16px 16px 20px 10px rgba(0, 0, 0, 0.1);
 }
 
+img.logo {
+  width: 218px; 
+  height: 218px;
+}
+
 a.box-brand-shadow {
   box-shadow: -4px 4px #ff9911;
 }
