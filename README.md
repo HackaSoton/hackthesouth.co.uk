@@ -1,3 +1,3 @@
 # Hack The South
 
-Hackathon website: https://hackthesouth.co.uk
+Hackathon has rebranded for this year. The website url is: https://highfield.co.uk
