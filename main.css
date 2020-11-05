@@ -12,6 +12,11 @@ img.logo {
   height: 218px;
 }
 
+img.homepage-logo {
+  width: 300px;
+  height: 300px;
+}
+
 a.box-brand-shadow {
   box-shadow: -4px 4px #ff9911;
 }
